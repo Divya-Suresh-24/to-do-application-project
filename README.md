@@ -1,2 +1,2 @@
-# to-do-application-project
+# To-do-application-project
 HCI 584 Project Repo
