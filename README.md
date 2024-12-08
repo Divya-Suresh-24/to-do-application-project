@@ -1,6 +1,3 @@
-Here’s the **README.md** content in Markdown format:
-
-```markdown
 # Prioritized To-Do List App
 
 ---
@@ -106,6 +103,9 @@ Contributions are welcome! To contribute:
 1. Modularize your code for easy scalability.
 2. Use `st.session_state` for managing session-level data.
 3. Follow Streamlit’s deployment guide for hosting the app online.
+
+##Demo
+   ![App in Action](assets/todoapp.gif)
 ```
-![App in Action](assets/todoapp.gif)
+
 
