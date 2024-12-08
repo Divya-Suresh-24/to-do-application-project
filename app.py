@@ -1,5 +1,3 @@
-#view the app at - https://todotrial.streamlit.app/
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime
