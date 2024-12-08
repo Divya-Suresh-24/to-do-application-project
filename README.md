@@ -6,6 +6,8 @@
 
 The **Prioritized To-Do List App** is a dynamic and user-friendly task management tool designed to make life easier when juggling personal and professional responsibilities.
 
+https://prioritizedtodo.streamlit.app/
+
 With this app, users can:
 - **Organize Tasks**: Create and manage tasks with priority levels like **high**, **medium**, or **low**.
 - **Categorize Tasks**: Assign tasks under **Work**, **Personal**, **School**, or other categories.
@@ -104,8 +106,9 @@ Contributions are welcome! To contribute:
 2. Use `st.session_state` for managing session-level data.
 3. Follow Streamlit’s deployment guide for hosting the app online.
 
-##Demo
+## Demo
    ![App in Action](assets/todoapp.gif)
+
 ```
 
 
