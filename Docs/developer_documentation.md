@@ -60,6 +60,15 @@ This document provides detailed insights for developers to understand, extend, a
     Deletes a task based on its ID.
   - `filter_tasks(criteria: dict)`:
     Filters tasks by user-defined criteria.
+     - `modify_tasks(task_id: int, updated_task: dict)`:
+    Modifies an existing task with new details (e.g., priority, category, or due date).
+  - `view_completed_tasks()`:
+    Retrieves and displays all completed tasks from the session state.
+  - `mark_completed(task_id: int)`:
+    Marks a specific task as completed and moves it to the completed tasks list.
+  - `mark_as_pending(task_id: int)`:
+    Moves a completed task back to the pending tasks list.
+
 
 #### Code Flow
 1. **Startup**:
@@ -126,6 +135,7 @@ This document provides detailed insights for developers to understand, extend, a
 User Action ---> app.py (Streamlit Interface) ---> Task Management Functions ---> Session State
 ```
 ### Class Diagram
+```plaintext
 +------------------+
 |    Task          |
 +------------------+
@@ -150,8 +160,10 @@ User Action ---> app.py (Streamlit Interface) ---> Task Management Functions ---
 | + mark_completed()      |
 | + mark_as_pending()     |
 +-------------------------+
+```
 
 ### State Diagram
+```plaintext
 +------------------+    Mark as Completed     +--------------------+
 |    Pending       | -----------------------> |    Completed       |
 +------------------+                           +--------------------+
@@ -162,10 +174,12 @@ Delete Task                                      Archive Task
 +------------------+                           +--------------------+
 |   Deleted        | <----------------------- |    Archived        |
 +------------------+                           +--------------------+
+```
 
 ### Screenshot of the app
 
-![App Screenshot](assets/todoapp.png)
+ ![App Screenshot](assets/screenshot.png)
+
 
 
 ---
