@@ -1,6 +1,3 @@
-Here’s the **README.md** content in Markdown format:
-
-```markdown
 # Prioritized To-Do List App
 
 ---
@@ -8,6 +5,8 @@ Here’s the **README.md** content in Markdown format:
 ## Project Overview
 
 The **Prioritized To-Do List App** is a dynamic and user-friendly task management tool designed to make life easier when juggling personal and professional responsibilities.
+
+https://prioritizedtodo.streamlit.app/
 
 With this app, users can:
 - **Organize Tasks**: Create and manage tasks with priority levels like **high**, **medium**, or **low**.
@@ -106,6 +105,10 @@ Contributions are welcome! To contribute:
 1. Modularize your code for easy scalability.
 2. Use `st.session_state` for managing session-level data.
 3. Follow Streamlit’s deployment guide for hosting the app online.
+
+## Demo
+   ![App in Action](assets/todoapp.gif)
+
 ```
-![App in Action](assets/todoapp.gif)
+
 
