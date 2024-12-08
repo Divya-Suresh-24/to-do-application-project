@@ -178,7 +178,7 @@ Delete Task                                      Archive Task
 
 ### Screenshot of the app
 
- ![App Screenshot](assets/screenshot.png)
+ ![App Screenshot](https://github.com/Divya-Suresh-24/to-do-application-project/blob/main/assets/screenshot.png)
 
 
 
